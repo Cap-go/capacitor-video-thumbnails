@@ -67,7 +67,7 @@ Generate a thumbnail image from a video file at a specific time position.
 
 **Returns:** <code>Promise&lt;<a href="#videothumbnailsresult">VideoThumbnailsResult</a>&gt;</code>
 
-**Since:** 0.0.1
+**Since:** 8.0.0
 
 --------------------
 
@@ -82,7 +82,7 @@ Get the native Capacitor plugin version.
 
 **Returns:** <code>Promise&lt;{ version: string; }&gt;</code>
 
-**Since:** 0.0.1
+**Since:** 8.0.0
 
 --------------------
 

@@ -1,6 +1,6 @@
 {
   "name": "@capgo/capacitor-video-thumbnails",
-  "version": "0.0.1",
+  "version": "8.0.0",
   "description": "Generate video thumbnails from local or remote video files",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

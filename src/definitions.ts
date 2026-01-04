@@ -1,7 +1,7 @@
 /**
  * Options for generating a video thumbnail.
  *
- * @since 0.0.1
+ * @since 8.0.0
  */
 export interface VideoThumbnailsOptions {
   /**
@@ -33,7 +33,7 @@ export interface VideoThumbnailsOptions {
 /**
  * Result of thumbnail generation.
  *
- * @since 0.0.1
+ * @since 8.0.0
  */
 export interface VideoThumbnailsResult {
   /**
@@ -56,7 +56,7 @@ export interface VideoThumbnailsResult {
 /**
  * Capacitor Video Thumbnails Plugin interface for generating video thumbnails.
  *
- * @since 0.0.1
+ * @since 8.0.0
  */
 export interface CapgoVideoThumbnailsPlugin {
   /**
@@ -65,7 +65,7 @@ export interface CapgoVideoThumbnailsPlugin {
    * @param options - Options for generating the thumbnail
    * @returns Promise that resolves with the thumbnail result containing uri, width, and height
    * @throws Error if thumbnail generation fails (e.g., invalid video, network error, unsupported format)
-   * @since 0.0.1
+   * @since 8.0.0
    * @example
    * ```typescript
    * const result = await CapgoVideoThumbnails.getThumbnail({
@@ -84,7 +84,7 @@ export interface CapgoVideoThumbnailsPlugin {
    *
    * @returns Promise that resolves with the plugin version
    * @throws Error if getting the version fails
-   * @since 0.0.1
+   * @since 8.0.0
    * @example
    * ```typescript
    * const { version } = await CapgoVideoThumbnails.getPluginVersion();
