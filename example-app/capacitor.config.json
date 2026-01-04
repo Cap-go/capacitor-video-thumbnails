@@ -1,0 +1,10 @@
+{
+  "appId": "app.capgo.videothumbnails",
+  "appName": "Video Thumbnails Example",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}
