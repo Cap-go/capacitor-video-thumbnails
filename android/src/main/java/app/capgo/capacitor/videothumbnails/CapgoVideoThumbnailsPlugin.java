@@ -23,7 +23,7 @@ import java.util.concurrent.Executors;
 public class CapgoVideoThumbnailsPlugin extends Plugin {
 
     private static final String TAG = "CapgoVideoThumbnails";
-    private final String pluginVersion = "8.1.0";
+    private final String pluginVersion = "8.1.1";
     private final ExecutorService executor = Executors.newSingleThreadExecutor();
 
     @PluginMethod
