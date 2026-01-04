@@ -1,18 +1,9 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type {
-  CapgoVideoThumbnailsPlugin,
-  VideoThumbnailsOptions,
-  VideoThumbnailsResult,
-} from './definitions';
+import type { CapgoVideoThumbnailsPlugin, VideoThumbnailsOptions, VideoThumbnailsResult } from './definitions';
 
-export class CapgoVideoThumbnailsWeb
-  extends WebPlugin
-  implements CapgoVideoThumbnailsPlugin
-{
-  async getThumbnail(
-    options: VideoThumbnailsOptions,
-  ): Promise<VideoThumbnailsResult> {
+export class CapgoVideoThumbnailsWeb extends WebPlugin implements CapgoVideoThumbnailsPlugin {
+  async getThumbnail(options: VideoThumbnailsOptions): Promise<VideoThumbnailsResult> {
     const { sourceUri, time = 0, quality = 1.0 } = options;
 
     return new Promise((resolve, reject) => {
@@ -47,11 +38,7 @@ export class CapgoVideoThumbnailsWeb
             height: canvas.height,
           });
         } catch (error) {
-          reject(
-            new Error(
-              `Failed to extract frame: ${error instanceof Error ? error.message : String(error)}`,
-            ),
-          );
+          reject(new Error(`Failed to extract frame: ${error instanceof Error ? error.message : String(error)}`));
         }
       };
 
