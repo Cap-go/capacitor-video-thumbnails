@@ -9,7 +9,7 @@ import UIKit
  */
 @objc(CapgoVideoThumbnailsPlugin)
 public class CapgoVideoThumbnailsPlugin: CAPPlugin, CAPBridgedPlugin {
-    private let pluginVersion: String = "8.1.5"
+    private let pluginVersion: String = "8.1.6"
     public let identifier = "CapgoVideoThumbnailsPlugin"
     public let jsName = "CapgoVideoThumbnails"
     public let pluginMethods: [CAPPluginMethod] = [
