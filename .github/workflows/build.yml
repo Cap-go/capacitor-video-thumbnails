@@ -35,7 +35,7 @@ jobs:
         run: bun run build
       - name: Generate AI changelog
         id: changelog
-        uses: mistricky/ccc@v0.2.3
+        uses: mistricky/ccc@v0.2.6
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -57,9 +57,9 @@ jobs:
         with:
           body: |
             ## 🆕 Changelog
-
+            
             ${{ steps.changelog.outputs.result }}
-
+            
             ---
 
             🔗 **Full Changelog**: https://github.com/${{ github.repository }}/compare/${{ steps.changelog.outputs.from_tag }}...${{ steps.changelog.outputs.to_tag }}
