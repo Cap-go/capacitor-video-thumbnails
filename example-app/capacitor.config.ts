@@ -4,7 +4,7 @@ import pkg from './package.json';
 
 const config: CapacitorConfig = {
   appId: 'app.capgo.videothumbnails',
-  appName: 'Video Thumbnails Example',
+  appName: '@capgo/capacitor-video-thumbnails',
   webDir: 'dist',
   plugins: {
     SplashScreen: {
