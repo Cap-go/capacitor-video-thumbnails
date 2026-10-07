@@ -20,7 +20,7 @@ Create thumbnail images from local or remote videos in your Capacitor app, for g
 - **One call**: `getThumbnail()` returns an image of the video frame.
 - **Pick the frame**: `time` sets the position in milliseconds.
 - **Quality**: set the image `quality`.
-- **Remote videos**: pass HTTP `headers` for protected URLs.
+- **Remote videos**: pass HTTP `headers` for protected URLs on iOS and Android.
 - **Platforms**: iOS, Android and Web. iOS uses AVFoundation, Android uses `MediaMetadataRetriever`, web uses a video element and canvas.
 
 ## Why Capacitor Video Thumbnails?
