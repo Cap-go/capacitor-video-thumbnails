@@ -1,12 +1,27 @@
 # @capgo/capacitor-video-thumbnails
-<a href="https://capgo.app/"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-video-thumbnails" alt="Capgo - Instant updates for Capacitor" /></a>
+
+Create thumbnail images from local or remote videos in your Capacitor app, for galleries, upload previews and video lists.
+
+<a href="https://capgo.app/?ref=plugin_video_thumbnails"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-video-thumbnails" alt="Capgo - Instant updates for Capacitor" /></a>
 
 <div align="center">
-  <h2><a href="https://capgo.app/?ref=plugin_video_thumbnails"> ➡️ Get Instant updates for your App with Capgo</a></h2>
-  <h2><a href="https://capgo.app/consulting/?ref=plugin_video_thumbnails"> Missing a feature? We'll build the plugin for you 💪</a></h2>
+  <p><b>Capgo</b>: open-source live updates for Ionic and Capacitor apps. Ship OTA fixes and features instantly, without waiting for app store review.</p>
+  <h2><a href="https://capgo.app/register/?ref=plugin_video_thumbnails">➡️ Get started for free</a></h2>
+  <p>14-day unlimited free trial. No credit card required</p>
+  <p><a href="https://capgo.app/consulting/?ref=plugin_video_thumbnails">Missing a feature? We'll build the plugin for you 💪</a></p>
 </div>
 
-Generate video thumbnails from local or remote video files.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Cap-go/capacitor-video-thumbnails/main/assets/github-social-preview.png" alt="@capgo/capacitor-video-thumbnails for Capacitor apps" width="300" />
+</p>
+
+## Key features
+
+- **One call**: `getThumbnail()` returns an image of the video frame.
+- **Pick the frame**: `time` sets the position in milliseconds.
+- **Quality**: set the image `quality`.
+- **Remote videos**: pass HTTP `headers` for protected URLs.
+- **Platforms**: iOS, Android and Web. iOS uses AVFoundation, Android uses `MediaMetadataRetriever`, web uses a video element and canvas.
 
 ## Why Capacitor Video Thumbnails?
 
