@@ -8,7 +8,6 @@ Create thumbnail images from local or remote videos in your Capacitor app, for g
   <p><b>Capgo</b>: push fixes to your Capacitor users in minutes, build signed iOS and Android apps without a Mac, and roll back in one click.</p>
   <h2><a href="https://capgo.app/register/?ref=plugin_video_thumbnails">➡️ Get started for free</a></h2>
   <p>14-day unlimited free trial. No credit card required</p>
-  <p><a href="https://capgo.app/consulting/?ref=plugin_video_thumbnails">Missing a feature? We'll build the plugin for you 💪</a></p>
 </div>
 
 > 🤖 **Building with an AI coding agent?** Install [Capgo skills](https://capgo.app/skills/?ref=plugin_video_thumbnails) so Claude Code, Codex, Cursor, Copilot, or Gemini CLI know how to install and use `@capgo/capacitor-video-thumbnails` in your Capacitor app: `npx skills add Cap-go/capgo-skills`. Then ask your agent: *"Add @capgo/capacitor-video-thumbnails to my Capacitor app and wire it up."* [Agent setup guides](https://capgo.app/agents/?ref=plugin_video_thumbnails) · [Hosted MCP](https://capgo.app/docs/ai/mcp/?ref=plugin_video_thumbnails)
@@ -162,7 +161,9 @@ Options for generating a video thumbnail.
 
 Construct a type with a set of properties K of type T
 
-<code>{ [P in K]: T; }</code>
+<code>{
+ [P in K]: T;
+ }</code>
 
 </docgen-api>
 
